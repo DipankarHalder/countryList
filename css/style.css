@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Mukta Malar', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.country-wrapper{
+    float: left;
+    width: 100%;
+}
+.wrapper{
+    margin: 0px auto;
+    max-width: 1300px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.allCountries{
+    margin: 20px 0px;
+    display: grid;
+    width: 100%;
+    font-size: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 24px;
+    list-style: none;
+}
+.allCountries li{
+    font-size: 14px;
+    padding: 26px;
+    border-radius: 4px;
+    transition: 0.5s;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 8%);
+}
+.allCountries li:hover{
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    transition: 0.5s;
+}
